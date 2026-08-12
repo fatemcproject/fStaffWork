@@ -9,7 +9,7 @@ import org.bukkit.command.CommandSender;
 import java.text.NumberFormat;
 import java.util.List;
 
-@Getter(AccessLevel.PRIVATE)
+@Getter
 @RequiredArgsConstructor
 public abstract class AbstractSubCommand {
 

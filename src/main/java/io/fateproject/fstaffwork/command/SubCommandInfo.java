@@ -11,4 +11,6 @@ public @interface SubCommandInfo {
     String permission() default "";
     String description() default "N/a description";
 
+    boolean defaultArgument() default false;
+
 }

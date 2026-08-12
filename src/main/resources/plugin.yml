@@ -2,3 +2,9 @@ name: fStaffWork
 version: '${version}'
 main: io.fateproject.fstaffwork.StaffWorkPlugin
 api-version: '1.16'
+authors: [ "x3r0zzz", "acyptoz" ]
+
+commands:
+  fstaffwork:
+    aliases: [ sw, staffwork ]
+    permission: fstaffwork.command.use
