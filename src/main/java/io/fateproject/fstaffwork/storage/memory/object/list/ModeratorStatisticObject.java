@@ -1,10 +1,12 @@
 package io.fateproject.fstaffwork.storage.memory.object.list;
 
 import io.fateproject.fstaffwork.storage.memory.object.MemoryObject;
+import lombok.Getter;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Getter
 public final class ModeratorStatisticObject implements MemoryObject {
     private String playerName;
     private List<TargetInformationObject> targetInformationList;
